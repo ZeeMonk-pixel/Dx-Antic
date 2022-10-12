@@ -21,6 +21,7 @@ button{
 .mobile-nav{
     /* border: 2px solid green; */
     display: none;
+    position: relative;
 }
 .mobile-nav h3{
     color: white;
@@ -35,8 +36,8 @@ button{
     width: 30px;
     display: flex;
     align-items: center;
-    position: fixed;
-    top: 2.2rem;
+    position: absolute;
+    top: 0.67rem;
     right: 2.5rem;
 }
 .menubars{
@@ -79,7 +80,7 @@ button{
 .mobile-link-holder{
     /* border: 2px solid purple; */
     display: none;
-    width: 50%;
+    width: 10g0%;
     position: fixed;
     top: 4.5rem;
     right: 0;

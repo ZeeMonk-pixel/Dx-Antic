@@ -24,8 +24,8 @@ button{
 }
 .mobile-nav h3{
     color: white;
-    font-size: 40px;
-    letter-spacing: 2.5px;
+    font-size: 34px;
+    letter-spacing: 3px;
     padding-left: 40px;
     text-align: left;
 }
@@ -36,7 +36,7 @@ button{
     display: flex;
     align-items: center;
     position: fixed;
-    top: 3rem;
+    top: 2.2rem;
     right: 2.5rem;
 }
 .menubars{
@@ -86,19 +86,20 @@ button{
     /* margin: 0 0 0 auto; */
 }
 .mobile-link-holder ul{
-    text-align: right;
+    text-align: left;
     padding: 20px 0;
-    color: white;
     list-style: none;
 }
 .mobile-link-holder li{
     padding: 20px 0;
-    padding-right: 20px;
+    padding-left: 20px;
     font-size: 20px;
-}
-.mobile-link-holder li:hover{
     background: #F3EEE8;
     color: var(--p-text);
+}
+.mobile-link-holder li:hover{
+    background: transparent;
+    color: white;
     border-radius: 1px;
 }
 .showlinks{
@@ -135,7 +136,7 @@ header{
 .link-holder h3{
     color: var(--light-text);
     font-size: 34px;
-    letter-spacing: 2.5px;
+    letter-spacing: 3px;
     padding-left: 10px;
 }
 .link-holder ul{

@@ -17,6 +17,95 @@ button{
 
 /* starts here  */
 /* ends here  */
+/* mobile nav section starts here  */
+.mobile-nav{
+    /* border: 2px solid green; */
+    display: none;
+}
+.mobile-nav h3{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2.5px;
+    padding-left: 40px;
+    text-align: left;
+}
+.hamburger-menu{
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 3rem;
+    right: 2.5rem;
+}
+.menubars{
+    position: relative;
+    height: 4px;
+    width: 100%;
+    background: #F7F8F9;
+}
+.menubars::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background: #F7F8F9;
+    transform: translateY(-10px);
+}
+.menubars::after{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background: transparent;
+    transform: translateY(10px);
+}
+.show .menubars{
+    background: transparent;
+}
+.show .menubars::before{
+    transform: rotate(45deg);
+    width: 100%;
+    background: #F7F8F9;
+}
+.show .menubars::after{
+    width: 100%;
+    transform: rotate(-45deg);
+    background: #F7F8F9;
+}
+.mobile-link-holder{
+    /* border: 2px solid purple; */
+    display: none;
+    width: 50%;
+    position: fixed;
+    top: 4.5rem;
+    right: 0;
+    /* margin: 0 0 0 auto; */
+}
+.mobile-link-holder ul{
+    text-align: right;
+    padding: 20px 0;
+    color: white;
+    list-style: none;
+}
+.mobile-link-holder li{
+    padding: 20px 0;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.mobile-link-holder li:hover{
+    background: #F3EEE8;
+    color: var(--p-text);
+    border-radius: 1px;
+}
+.showlinks{
+    display: block;
+}
+
+/* mobile nav section ends here  */
 
 /* header section starts here  */
 header{

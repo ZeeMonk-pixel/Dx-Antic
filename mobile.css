@@ -150,6 +150,10 @@
         width: 100%;
         background: url(./images/Picture.png);
     }
+    .mobile-nav{
+        /* border: 2px solid green; */
+        display: block;
+    }
     .header-left{
         width: 100%;
         text-align: center;

@@ -3,12 +3,223 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 1500px;
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+}
+p{
+    font-family: 'Varta', sans-serif;
+}
+button{
+    font-family: 'Karla', sans-serif;
+}
 
 /* starts here  */
 /* ends here  */
-/* starts here  */
-/* ends here  */
-/* starts here  */
-/* ends here  */
-/* starts here  */
-/* ends here  */
+
+/* header section starts here  */
+header{
+    /* border: 2px solid black; */
+    background: #F3EEE8;
+}
+.header-container{
+    /* border: 2px solid purple; */
+    width: 90%;
+    margin: 0 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    /* border: 2px solid green; */
+    width: 40%;
+    padding-top: 30px;
+}
+.link-holder{
+    /* border: 2px solid green; */
+    display: flex;
+    padding: 20px 0;
+    width: 85%;
+    margin: 0 auto 0 0;
+    justify-content: space-between;
+}
+.link-holder h3{
+    color: var(--light-text);
+    font-size: 34px;
+    letter-spacing: 2.5px;
+    padding-left: 10px;
+}
+.link-holder ul{
+    display: flex;
+    list-style: none;
+    /* border: 2px solid red; */
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--p-text);
+    font-size: 14px;
+}
+.text-area{
+    /* border: 2px solid brown; */
+    padding: 90px 0;
+}
+.text-area h1{
+    color: var(--light-text);
+    font-size: 3rem;
+    padding: 25px 0;
+    font-weight: 300;
+}
+.text-area h5{
+    color: var(--light-text);
+    font-size: 13px;
+    font-family: 'Varta', sans-serif;
+    font-weight: 600;
+}
+.text-area p{
+    color: var(--p-text);
+    font-size: 17px;
+}
+.text-area i{
+    border: 1px solid var(--light-text);
+    border-radius: 50%;
+    padding: 10px;
+    color: var(--light-text);
+    margin: 20px 0;
+}
+.header-right{
+    /* border: 2px solid blue; */
+    width: 50%;
+    background: url(./images/Picture.png);
+    position: relative;
+}
+.header-right img{
+    position: absolute;
+    top: 3rem;
+    right: 4rem;
+}
+/* header section ends here  */
+
+/* info-section starts here  */
+.info-section{
+    background: #F3EEE8;
+    padding: 40px 0;
+}
+.info-section-container{
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: 0 0 0 auto;
+    display: flex;
+}
+.left-info{
+    /* border: 2px solid green; */
+    width: 40%;
+}
+.left-info h3{
+    color: #706458;
+    font-size: 2.7rem;
+    font-weight: 300;
+}
+.left-info button{
+    color: var(--light-text);
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 25px 0;
+}
+.left-info button i{
+    font-size: 10px;
+    padding-left: 5px;
+}
+.right-info{
+    /* border: 2px solid blue; */
+    width: 50%;
+    margin-left: 5%;
+}
+.right-top-info{
+    width: 90%;
+    margin: 0 0 0 auto;
+    /* border: 2px solid purple; */
+    display:flex;
+    /* justify-content: space-between; */
+}
+.right-bottom-info{
+    width: 90%;
+    margin: 0 0 0 auto;
+    /* border: 2px solid purple; */
+    display:flex;
+    /* justify-content: space-between; */
+}
+.right-info-content{
+    padding: 0 1.5rem;
+    width: 400px;
+}
+.right-info-content h5{
+    color: var(--light-text);
+    font-weight: 600;
+    font-size: 1.188rem;
+}
+.right-info-content p{
+    font-size: 0.875rem;
+    line-height: 1.5;
+    padding: 15px 0;
+}
+/* info-section ends here  */
+/* footer section starts here  */
+footer{
+    /* border: 2px solid tomato; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 10px 90px 0;
+}
+.left-footer{
+    /* border: 2px solid green; */
+    width: 45%;
+}
+.left-footer h4{
+    color: #121212;;
+    font-size: 35px;
+    font-weight: 300;
+}
+.left-footer p{
+    padding: 5px 0;
+    font-size: 15px;
+    color: var( --p-text);
+}
+.left-footer button{
+    color: var(--light-text);
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+}
+.left-footer button i{
+    font-size: 10px;
+    padding-left: 5px;
+}
+.right-footer{
+    /* border: 2px solid blue; */
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.right-footer input{
+    border: none;
+    width: 18.5rem;
+    height: 3rem;
+    padding-left: 20px;
+    background: rgba(243, 238, 232, 0.3);
+    border-radius: 1px;
+}
+.right-footer button{
+    height: 3rem;
+    width: 8rem;
+    margin-left: 10px;
+    color: white;
+    background: #534B42;
+    border-radius: 1px;
+    border: none;
+}
+/* footer section ends here  */

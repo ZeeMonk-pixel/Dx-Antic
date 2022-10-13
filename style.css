@@ -304,7 +304,7 @@ footer{
     background: rgba(243, 238, 232, 0.3);
     border-radius: 1px;
 }
-.right-footer input[type=button]{
+.right-footer button{
     color: white;
     background: #534B42;
     height: 3rem;

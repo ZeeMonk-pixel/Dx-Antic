@@ -313,5 +313,7 @@ footer{
     border-radius: 1px;
     border: none;
     padding: 0;
+    outline: none;
+    border: none;
 }
 /* footer section ends here  */

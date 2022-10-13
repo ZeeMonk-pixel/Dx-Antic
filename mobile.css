@@ -30,6 +30,9 @@
     .left-info h3{
         font-size: 2.3rem;
     }
+    .left-footer h4{
+        font-size: 30px;
+    }
 }
 
 @media (max-width:868px) {
@@ -187,4 +190,15 @@
         width: 300px;
     }
     
+}
+@media (max-width:334px) {
+    .right-info-content{
+        width: 240px;
+    }
+    .left-info h3{
+        font-size: 30px;
+    }
+    .right-info-content h5{
+        font-size: 20px;
+    }
 }

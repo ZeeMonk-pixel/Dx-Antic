@@ -144,7 +144,7 @@
         display: none;
     }
     .text-area{
-        padding: 90px 0 170px;
+        padding: 60px 0;
     }
     .text-area p{
         color: #F7F8F9;
@@ -170,7 +170,7 @@
         border: 1px solid white;
     }
     .text-area h1{
-        padding: 65px 0;
+        padding: 50px 0;
     }
 
 }

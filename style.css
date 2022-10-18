@@ -32,8 +32,8 @@ button{
 }
 .hamburger-menu{
     /* border: 2px solid red; */
-    height: 30px;
-    width: 30px;
+    height: 22px;
+    width: 22px;
     display: flex;
     align-items: center;
     position: absolute;
@@ -44,7 +44,7 @@ button{
     position: relative;
     height: 4px;
     width: 100%;
-    background: #F7F8F9;
+    background: rgb(180, 174, 174);
 }
 .menubars::before{
     content: '';
@@ -52,7 +52,7 @@ button{
     height: 4px;
     width: 100%;
     left: 0;
-    background: #F7F8F9;
+    background: rgb(180, 174, 174);
     transform: translateY(-10px);
 }
 .menubars::after{
@@ -70,12 +70,12 @@ button{
 .show .menubars::before{
     transform: rotate(45deg);
     width: 100%;
-    background: #F7F8F9;
+    background: rgb(180, 174, 174);;
 }
 .show .menubars::after{
     width: 100%;
     transform: rotate(-45deg);
-    background: #F7F8F9;
+    background: rgb(180, 174, 174);;
 }
 .mobile-link-holder{
     /* border: 2px solid purple; */
@@ -92,10 +92,10 @@ button{
     list-style: none;
 }
 .mobile-link-holder li{
+    background: #F3EEE8;
     padding: 20px 0;
     padding-left: 20px;
     font-size: 16px;
-    background: #F3EEE8;
     color: var(--p-text);
 }
 .mobile-link-holder li:hover, .mobile-link-holder li:focus{

@@ -14,8 +14,8 @@
     .link-holder ul{
         width: 100%;
     }
-    .header-slider_images,.header-slider_images2{
-        width: 92%;
+    .header-slider_images{
+        width: 90git%;
         margin-right: 0;
     }
 }
@@ -52,13 +52,15 @@
     .right-info-content{
         padding-right: 1.1rem;
     }
-    .header-slider_images,.header-slider_images2{
+    .header-slider_images{
         width: 95%;
         margin-right: 0;
+        padding-left: 10px;
     }
     .inspiration-container{
         width: 85%;
         margin: 0 auto;
+        padding-left: 10px;
     }
     .inspiration-container h3{
         font-size: 34px;
@@ -103,13 +105,13 @@
         width: 100%;
         margin: 0 auto;
     }
-    .header-slider_images,.header-slider_images2{
+    .header-slider_images{
         width: 100%;
         margin-right: 0;
     }
 }
 @media (max-width:686px) {
-    .header-slider_images,.header-slider_images2{
+    .header-slider_images{
         width: 100%;
     }
     .info-section-container{

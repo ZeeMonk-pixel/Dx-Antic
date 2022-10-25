@@ -15,7 +15,7 @@
         width: 100%;
     }
     .header-slider_images{
-        width: 90git%;
+        width: 90%;
         margin-right: 0;
     }
 }
@@ -104,10 +104,12 @@
     .inspiration-container{
         width: 100%;
         margin: 0 auto;
+        padding-left: 10px;
     }
     .header-slider_images{
         width: 100%;
         margin-right: 0;
+        padding-left: 10px;
     }
 }
 @media (max-width:686px) {
@@ -216,7 +218,6 @@
         flex-direction: column;
         width: 80%;
         margin: 0 auto;
-        padding-left: 0;
     }
     .inspiration-container h3{
         font-weight: 700;
@@ -255,6 +256,7 @@
         flex-direction: column;
         width: 90%;
         margin: 0 auto;
+        padding-left: 0;
     }
     .mipics-img{
         width: 90%;

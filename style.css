@@ -322,20 +322,21 @@ header{
 .header-slider{
     /* border: 2px solid red; */
     background: var(--light-grey-color);
-    padding: 1.875rem;
+    padding-left: 1.875rem;
     width: 100%;
 }
 .header-slider_images{
     /* border: 2px solid green; */
+    justify-content: space-between;
     display: flex;
-    width: 80%;
-    margin: 0 auto;
+    width: 90%;
+    margin-left: auto;
     padding: 10px 0;
 }
 .header-slider_images img,.header-slider_images2 img{
-    width: 17.625rem;
-    height: 25.813rem;
-    margin: 0 10px;
+    width: 32%;
+    height: 24.813rem;
+    /* margin: 0 0.615rem; */
 }
 .header-slider_images2{
     display: flex;

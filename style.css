@@ -373,7 +373,7 @@ header{
 }
 .inspiration-container h3{
     font-size: 40px;
-    color: var(--p-text);
+    color: #706458;
     font-weight: 100;
 }
 .inspiration-container p{
@@ -415,6 +415,7 @@ header{
     padding: 10px 0;
     color: var(--p-text);
     font-size: 17px;
+    font-weight: 700;
 }
 .mipics-img img{
     width: 90%;

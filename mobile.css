@@ -62,7 +62,7 @@
         margin-right: 0;
     }
     .inspiration-container{
-        width: 95%;
+        width: 85%;
         margin: 0 auto;
     }
     .inspiration-container h3{
@@ -104,6 +104,14 @@
     .footer{
         width: 95%;
         margin: 0 auto;
+    }
+    .inspiration-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header-slider_images,.header-slider_images2{
+        width: 100%;
+        margin-right: 0;
     }
 }
 @media (max-width:686px) {
@@ -217,7 +225,7 @@
         margin: 0 auto;
     }
     .inspiration-container h3{
-        font-size: 700;
+        font-weight: 700;
     }
     .inspiration-container p{
         width: 80%;

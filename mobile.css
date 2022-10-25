@@ -88,6 +88,9 @@
     .link-holder ul{
         font-size: 10px;
     }
+    .left-info{
+        padding-left: 10px;
+    }
     .left-info h3{
         font-size: 1.5rem;
     }
@@ -156,6 +159,7 @@
     .left-info{
         width: 80%;
         margin: 0 auto;
+        padding-left: 0;
     }
     .left-info h3{
         font-size: 2.7rem;

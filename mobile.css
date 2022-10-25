@@ -37,11 +37,6 @@
     .left-footer h4{
         font-size: 30px;
     }
-    /* .header-slider_images img,.header-slider_images2 img{
-        width: 18rem;
-        height: 20rem;
-    } */
-    
 }
 
 @media (max-width:868px) {
@@ -71,10 +66,6 @@
     .inspiration-container p{
         width: 40%;
     }
-    /* .header-slider_images img,.header-slider_images2 img{
-        width: 11rem;
-        height: 15rem;
-    } */
 }
 
 @media (max-width:790px) {
@@ -118,10 +109,6 @@
     }
 }
 @media (max-width:686px) {
-    /* .header-slider_images img,.header-slider_images2 img{
-        width: 8rem;
-        height: 11rem;
-    } */
     .header-slider_images,.header-slider_images2{
         width: 100%;
     }

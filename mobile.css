@@ -227,12 +227,13 @@
         flex-direction: column;
         width: 80%;
         margin: 0 auto;
+        padding-left: 0;
     }
     .inspiration-container h3{
         font-weight: 700;
     }
     .inspiration-container p{
-        width: 80%;
+        width: 90%;
         margin-left: 0;
         padding: 20px 0;
     }
@@ -244,6 +245,10 @@
     }
     .mipics{
         display: block;
+        padding-left: 0;
+    }
+    .mipics-img{
+        padding-left: 0;
     }
 
 }

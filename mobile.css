@@ -14,6 +14,10 @@
     .link-holder ul{
         width: 100%;
     }
+    .header-slider_images,.header-slider_images2{
+        width: 92%;
+        margin-right: 0;
+    }
 }
 
 @media (max-width:1129px) {
@@ -33,6 +37,11 @@
     .left-footer h4{
         font-size: 30px;
     }
+    .header-slider_images img,.header-slider_images2 img{
+        width: 14rem;
+        height: 20rem;
+    }
+    
 }
 
 @media (max-width:868px) {
@@ -47,6 +56,24 @@
     }
     .right-info-content{
         padding-right: 1.1rem;
+    }
+    .header-slider_images,.header-slider_images2{
+        width: 95%;
+        margin-right: 0;
+    }
+    .inspiration-container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .inspiration-container h3{
+        font-size: 34px;
+    }
+    .inspiration-container p{
+        width: 40%;
+    }
+    .header-slider_images img,.header-slider_images2 img{
+        width: 11rem;
+        height: 15rem;
     }
 }
 
@@ -74,14 +101,26 @@
         width: 95%;
         margin: 0 auto;
     }
-    footer{
+    .footer{
         width: 95%;
         margin: 0 auto;
     }
 }
+@media (max-width:686px) {
+    .header-slider_images img,.header-slider_images2 img{
+        width: 8rem;
+        height: 11rem;
+    }
+    .header-slider_images,.header-slider_images2{
+        width: 100%;
+    }
+    .info-section-container{
+        width: 100%;
+    }
+}
 
 @media (max-width:656px) {
-    footer{
+    .footer{
         flex-direction: column;
         padding: 20px;
     }
@@ -172,6 +211,28 @@
     .text-area h1{
         padding: 50px 0;
     }
+    .inspiration-container{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .inspiration-container h3{
+        font-size: 700;
+    }
+    .inspiration-container p{
+        width: 80%;
+        margin-left: 0;
+        padding: 20px 0;
+    }
+    .prev,.next{
+        display: none;
+    }
+    .slideshow-container{
+        display: none;
+    }
+    .mipics{
+        display: block;
+    }
 
 }
 
@@ -181,6 +242,15 @@
         margin: 0 auto;
     }
     .right-info{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .inspiration-container{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .mipics-img{
         width: 90%;
         margin: 0 auto;
     }

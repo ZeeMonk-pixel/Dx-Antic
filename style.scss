@@ -373,6 +373,7 @@ footer{
         .footer-links-holder{
             // border: 1px solid green;
             display: flex;
+            padding-left: 10px;
             .footer-header{
                 // border: 1px solid purple;
                 width: 13%;
@@ -398,7 +399,7 @@ footer{
                     li{
                         color: #706458;
                         padding: 10px 0;
-                        font-size: 14px;
+                        font-size: 12px;
                     }
                 }
             }
@@ -406,12 +407,13 @@ footer{
                 width: 30%;
                 img{
                     padding: 10px 0;
-                    width: 100%;
+                    width: 90%;
                 }
                 p{
                     color: #706458;
                     font-size: 14px;
                     padding: 10px 0;
+                    width: 90%;
                 }
                 button{
                     @include btn;
@@ -431,6 +433,7 @@ footer{
             // border: 1px solid tomato;
             display: flex;
             justify-content: center;
+            padding: 10px 0;
             .footer-socials-img{
                 border: 4px solid var(--light-text);
                 padding: 5px;
@@ -448,6 +451,7 @@ footer{
             display: flex;
             justify-content: space-between;
             padding: 20px 0;
+            padding-left: 10px;
             h4{
                 color: #706458;
                 font-weight: 100;

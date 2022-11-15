@@ -407,6 +407,9 @@ footer .footer-container .footer-links-holder .last-link button i {
   padding-left: 5px;
   font-size: 10px;
 }
+footer .footer-container .mobile-footer-links-holder {
+  display: none;
+}
 footer .footer-container .footer-socials {
   display: flex;
   justify-content: center;
@@ -657,28 +660,63 @@ footer .footer-container .footer-copyright .right-footer-copyright p {
     width: 100%;
   }
   footer .footer-container .footer-links-holder {
-    flex-direction: column;
+    display: none;
   }
-  footer .footer-container .footer-links-holder .footer-header {
+  footer .footer-container .mobile-footer-links-holder {
+    flex-direction: column;
+    display: flex;
+  }
+  footer .footer-container .mobile-footer-links-holder .footer-header {
     width: 95%;
     margin-left: auto;
   }
-  footer .footer-container .footer-links-holder .footer-header h3 {
+  footer .footer-container .mobile-footer-links-holder .footer-header h3 {
     text-align: center;
     font-size: 27px;
+    color: #706458;
+    padding: 10px 0;
   }
-  footer .footer-container .footer-links-holder .footer-links {
+  footer .footer-container .mobile-footer-links-holder .footer-links {
     width: 95%;
     margin-left: auto;
   }
-  footer .footer-container .footer-links-holder .footer-links h3 {
+  footer .footer-container .mobile-footer-links-holder .footer-links h3 {
     font-size: 22px;
+    color: #706458;
   }
-  footer .footer-container .footer-links-holder .footer-links ul li {
-    font-size: 12px;
+  footer .footer-container .mobile-footer-links-holder .footer-links ul {
+    list-style: none;
+    padding: 10px 0;
   }
-  footer .footer-container .footer-links-holder .footer-links p {
+  footer .footer-container .mobile-footer-links-holder .footer-links ul li {
     font-size: 12px;
+    padding: 10px 0;
+    color: #706458;
+  }
+  footer .footer-container .mobile-footer-links-holder .footer-links img {
+    padding: 10px 0;
+    width: 90%;
+  }
+  footer .footer-container .mobile-footer-links-holder .footer-links p {
+    font-size: 12px;
+    color: #706458;
+    padding: 10px 0;
+    width: 90%;
+  }
+  footer .footer-container .mobile-footer-links-holder .footer-links button {
+    padding: 0.625rem 1.25rem;
+    font-size: 12px;
+    border: none;
+    border-radius: 1px;
+    padding-left: 0;
+    padding-top: 0;
+    color: var(--light-text);
+    font-weight: 600;
+    background: transparent;
+  }
+  footer .footer-container .mobile-footer-links-holder .footer-links button i {
+    padding-left: 5px;
+    font-size: 10px;
   }
   footer .footer-container .footer-copyright {
     flex-direction: column-reverse;

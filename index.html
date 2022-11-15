@@ -12,8 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./fontsawesome/fontawesome-free-6.1.2-web/css/all.css">
     <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="style.scss">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile.css">
+    <!-- <link rel="stylesheet" href="mobile.css"> -->
 </head>
 
 <body>
@@ -24,10 +25,12 @@
     <div class="header-container">
         <div class="header-left">
             <div class="mobile-nav">
-                <div class="hamburger-menu" onclick="Addclass()">
-                    <div class="menubars"></div>
+                <div class="mobile-menu">
+                    <h3>antic</h3>
+                    <div class="hamburger-menu" onclick="Addclass()">
+                        <div class="menubars"></div>
+                    </div>
                 </div>
-                <h3>antic</h3>
                 <div class="mobile-link-holder">
                     <ul>
                         <li>Products</li>
@@ -38,7 +41,9 @@
                 </div>
             </div>
             <div class="link-holder">
-                <h3>antic</h3>
+                <div class="logo-text">
+                    <h3>antic</h3>
+                </div>
                 <ul>
                     <li>Products</li>
                     <li>Rooms</li>
@@ -69,28 +74,28 @@
             <h3>We stay by your side to design your projects</h3>
             <button>Find out more<i class="fa-solid fa-angle-right"></i></button>
         </div>
-    <div class="right-info">
-        <div class="right-top-info">
-            <div class="right-info-content">
-                <h5>Our Advices</h5>
-                <p>What if you took advantage of this  rather special period to rethink your  interior? You spend more time at home so you might as  well feel good there.</p>
+        <div class="right-info">
+            <div class="right-info-cont">
+                <div class="right-info-content">
+                    <h5>Our Advices</h5>
+                    <p>What if you took advantage of this  rather special period to rethink your  interior? You spend more time at home so you might as  well feel good there.</p>
+                </div>
+                <div class="right-info-content">
+                    <h5>Click and Collect</h5>
+                    <p>Adapted and contactless. Free from  € 200 of purchases in stores offering the service.</p>
+                </div>
             </div>
-            <div class="right-info-content">
-                <h5>Click and Collect</h5>
-                <p>Adapted and contactless. Free from  € 200 of purchases in stores offering the service.</p>
+            <div class="right-info-cont">
+                <div class="right-info-content">
+                    <h5>Conception Service</h5>
+                    <p>Personalized service with an expert  advisor for your interior and exterior  decoration or layout projects. </p>
+                </div>
+                <div class="right-info-content">
+                    <h5>Installation Service</h5>
+                    <p>Our furniture packaged in flat packs  are designed for easy assembly. But  you can call on our partner.</p>
+                </div>
             </div>
         </div>
-        <div class="right-bottom-info">
-            <div class="right-info-content">
-                <h5>Conception Service</h5>
-                <p>Personalized service with an expert  advisor for your interior and exterior  decoration or layout projects. </p>
-            </div>
-            <div class="right-info-content">
-                <h5>Installation Service</h5>
-                <p>Our furniture packaged in flat packs  are designed for easy assembly. But  you can call on our partner.</p>
-            </div>
-        </div>
-    </div>
     </div>
 </div>
 <!-- info-section ends here  -->
@@ -134,11 +139,11 @@
 <div class="inspiration-container">
     <h3>Inspirations</h3>
     <p>Our experts are keen to stay on top of trends in order to offer you new inspirations for your interior and exterior every day. Remember that to inspire you we have to inspire ourselves and we want to share that with you.</p>
-    <div>
+    <div class="slider-arrows">
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-</div>
+    </div>
 <!-- mobile-inspiration section  -->
 <div class="mipics">
     <div class="mipics-img">
@@ -159,6 +164,88 @@
     </div>
 </div>
 <!-- inspiration section ends here  -->
+
+<!-- footer section starts here  -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-links-holder">
+            <div class="footer-header">
+                <h3>antic</h3>
+            </div>
+            <div class="footer-links">
+                <h3>Products</h3>
+                <ul>
+                    <li>Furniture</li>
+                    <li>Decoration</li>
+                    <li>Storage</li>
+                    <li>Baby and child</li>
+                    <li>Connected home</li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Rooms</h3>
+                <ul>
+                    <li>Living room</li>
+                    <li>Dinning room</li>
+                    <li>Cooked</li>
+                    <li>Bedroom</li>
+                    <li>Bathroom</li>
+                    <li>Office</li>
+                    <li>Laundry</li>
+                    <li>Garage</li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Services</h3>
+                <ul>
+                    <li>Click and collect</li>
+                    <li>Conception</li>
+                    <li>Installation</li>
+                    <li>Advices</li>
+                    <li>Gift card</li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>About</h3>
+                <ul>
+                    <li>Our story</li>
+                    <li>Our stores</li>
+                    <li>Our partners</li>
+                </ul>
+            </div>
+            <div class="footer-links last-link">
+                <h3>We respect our planet</h3>
+                <img src="./images/footer.png" alt="">
+                <p>We’re taking positive steps to reduce our impact on the planet. For us, that means retailing responsibly.</p>
+                <button>Learn More <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+        <div class="footer-socials">
+            <div class="footer-socials-img">
+                <img src="./images/facebook.png" alt="">
+            </div>
+            <div class="footer-socials-img">
+                <img src="./images/twitter.png" alt="">
+            </div>
+            <div class="footer-socials-img">
+                <img src="./images/linkedin.png" alt="">
+            </div>
+            <div class="footer-socials-img">
+                <img src="./images/git.png" alt="">
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <h4>&copy; 2022  Israel Akinwumi , Original Figma design by Agence Dnd ( Antic )</h4>
+            <div class="right-footer-copyright">
+                <p>Privacy policy</p>
+                <p>Term of service</p>
+                <p>Language</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer section ends here  -->
+
 
 <!-- starts here  -->
 <!-- ends here  -->

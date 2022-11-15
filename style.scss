@@ -671,9 +671,13 @@ footer{
                     flex-direction: column;
                     width: 100%;
                     .right-info-content{
-                        width: 100%;
+                        width: 95%;
                         h5{
                             padding-bottom: 0;
+                            padding-top: 20px;
+                        }
+                        p{
+                            font-size: 14px;
                         }
                     }
                 }
@@ -761,7 +765,7 @@ footer{
                     }
                     ul{
                         li{
-                            font-size: 17px;
+                            font-size: 12px;
                         }
                     }
                     p{

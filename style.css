@@ -590,10 +590,14 @@ footer .footer-container .footer-copyright .right-footer-copyright p {
     width: 100%;
   }
   .info-section .info-section-container .right-info .right-info-cont .right-info-content {
-    width: 100%;
+    width: 95%;
   }
   .info-section .info-section-container .right-info .right-info-cont .right-info-content h5 {
     padding-bottom: 0;
+    padding-top: 20px;
+  }
+  .info-section .info-section-container .right-info .right-info-cont .right-info-content p {
+    font-size: 14px;
   }
   .footer {
     width: 100%;
@@ -671,7 +675,7 @@ footer .footer-container .footer-copyright .right-footer-copyright p {
     font-size: 22px;
   }
   footer .footer-container .footer-links-holder .footer-links ul li {
-    font-size: 17px;
+    font-size: 12px;
   }
   footer .footer-container .footer-links-holder .footer-links p {
     font-size: 12px;

@@ -584,6 +584,7 @@ footer .footer-container .footer-copyright .right-footer-copyright p {
   }
   .info-section .info-section-container .left-info h3 {
     font-weight: 600;
+    width: 92%;
   }
   .info-section .info-section-container .right-info {
     width: 90%;
@@ -602,6 +603,7 @@ footer .footer-container .footer-copyright .right-footer-copyright p {
   }
   .info-section .info-section-container .right-info .right-info-cont .right-info-content p {
     font-size: 14px;
+    width: 92%;
   }
   .footer {
     width: 100%;
@@ -639,7 +641,7 @@ footer .footer-container .footer-copyright .right-footer-copyright p {
     margin: 0 auto;
   }
   .inspiration-container h3 {
-    font-weight: 600;
+    font-weight: 400;
     width: 100%;
   }
   .inspiration-container p {
@@ -656,6 +658,7 @@ footer .footer-container .footer-copyright .right-footer-copyright p {
   }
   .mipics .mipics-img img {
     width: 100%;
+    height: 284px;
   }
   .mipics .mipics-img p {
     padding: 15px 0;
@@ -681,7 +684,7 @@ footer .footer-container .footer-copyright .right-footer-copyright p {
     text-align: center;
     font-size: 27px;
     color: #706458;
-    padding: 10px 0;
+    padding: 20px 0;
   }
   footer .footer-container .mobile-footer-links-holder .footer-links {
     width: 95%;

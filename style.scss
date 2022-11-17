@@ -666,6 +666,7 @@ footer{
                 margin: 0 auto;
                 h3{
                     font-weight: 600;
+                    width: 92%;
                 }
             }
             .right-info{
@@ -682,6 +683,7 @@ footer{
                         }
                         p{
                             font-size: 14px;
+                            width: 92%;
                         }
                     }
                 }
@@ -726,7 +728,7 @@ footer{
         width: 90%;
         margin: 0 auto;
         h3{
-            font-weight: 600;
+            font-weight: 400;
             width: 100%;
         }
         p{
@@ -744,6 +746,7 @@ footer{
         .mipics-img{
             img{
                 width: 100%;
+                height: 284px;
             }
             p{
                 padding: 15px 0;
@@ -770,7 +773,7 @@ footer{
                         text-align: center;
                         font-size: 27px;
                         color: #706458;
-                        padding: 10px 0;
+                        padding: 20px 0;
                     }
                 }
                 .footer-links{

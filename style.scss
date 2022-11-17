@@ -258,7 +258,7 @@ header{
         width: 45%;
         h4{
             font-size: 1.875rem;
-            color: var(--header-text);
+            color: black;
             font-weight: 100;
         }
         p{
@@ -690,12 +690,18 @@ footer{
 
     .footer{
         width: 100%;
+        flex-direction: column;
         .left-footer{
             padding-right: 1rem;
-            display: none;
+            width: 90%;
+            margin: 0 auto;
+            p{
+                padding: 10px 0;
+                width: 80%;
+            }
         }
         .right-footer{
-            width: 70%;
+            width: 90%;
             margin: 0 auto;
             display: flex;
             flex-direction: column;

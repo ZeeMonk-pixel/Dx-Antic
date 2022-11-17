@@ -618,7 +618,7 @@ footer{
 }
 @media (max-width:600px) {
     header{
-        background: url(./images/Picture.png);
+        background: var(--gradient), url(./images/Picture.png);
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
